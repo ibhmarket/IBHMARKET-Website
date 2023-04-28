@@ -22,7 +22,7 @@ const crypto = () => {
       type="primary"
       style={{ right: 24 }}
       icon={<WhatsAppOutlined />}
-      href="https://api.whatsapp.com/send/?phone=%2B918275746327&text&type=hey%20there"
+      href="https://api.whatsapp.com/send/?phone=%2B918766919502&text&type=hey%20there"
     />
       <Navbar/>
       <CarouselCrypto/>

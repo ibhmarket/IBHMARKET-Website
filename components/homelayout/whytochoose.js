@@ -10,7 +10,7 @@ const WhyToChoose = () => {
             Why you should choose Investment Banking?
           </h1>
           <p className="md:mb-0 text-[14px] font-normal tracking-wide  font-[poppins] text-white lg:text-2xl sm:px-16 xl:px-12 mt-8 ">
-            In Today's world Everyone Should Invest In Mutual fund Or any Type of Fund So that their Money will not Get Affected By Inflations That Is 4% Per year. And The Percent Matters A lot. In Fixed Deposit or Recurring Deposit In A Bank With Current Interest Rates i.e. 4.50 5.50 The Estimated return Value For a year Would Be 1,04,500. Approx Respectively. And If You Invest In Share,Stocks,Mutual Funds The Returns may Upto 8% that is almost Twice Of Bank Interest.
+            In Today's world Everyone Should Invest In Mutual fund Or any Type of Fund So that their Money will not Get Affected By Inflations That Is 4% Per year. And The Percent Matters A lot. In Fixed Deposit or Recurring Deposit In A Bank With Current Interest Rates i.e. 5.50 - 6.50 The Estimated return Value For a year Would Be 1,04,500. Approx Respectively. And If You Invest In Share,Stocks,Mutual Funds The Returns may Upto 8% that is almost Twice Of Bank Interest.
           </p>
         </div>
       </section>

@@ -12,8 +12,7 @@ const Structure = () => {
             STRUCTURE OF INVESTMENT BANKING{" "}
           </p>
           <p className="mb-8 text-lg font-normal interfont lg:text-xl sm:px-16 xl:px-48 text-gray-400">
-            In Today's world Everyone Should Invest In Mutual It is mainly
-            divided into three levels.
+          Today, everyone should invest in mutual funds. There are three levels of mutual funds.
           </p>
 
           <div className=" flex flex-flex lg:mb-16 sm:flex-row justify-center sm:space-y-0 sm:space-x-4">
@@ -22,8 +21,8 @@ const Structure = () => {
                 <Image className="" src={work} />
               </div>
               <div>
-                <div className="container md:mt-0 -mt-4  p-8 text-justify   py-8 mx-auto">
-                  <div className="flex flex-wrap -m-2 md:-m-4 text-justify  justify-around">
+                <div className="container md:mt-0 -mt-4  p-8 text-center   py-8 mx-auto">
+                  <div className="flex flex-wrap -m-2 md:-m-4 text-center  justify-around">
                     <div className="m-4 md:m-0 p-[1px] sm:w-1/2 lg:w-[31%] md:hover:scale-110 transition duration-300 ease-in-out bg-gradient-to-r from-[#F47C03] to-[#717BF9] rounded-lg  md:h-60">
                       <div className="w-full h-full rounded-lg bg-[#303131]  ">
                         <div className="pt-4">
@@ -33,7 +32,7 @@ const Structure = () => {
                         </div>
                         <div className="p-4 text-left w-full ">
                           {/* <Image src={card_1} /> */}
-                          <h2 className=" text-justify text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] ">
+                          <h2 className=" text-center text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] ">
                             <span className="text-white">
                               People in this division face customers directly.Activities
                               include advisory services on merger &
@@ -53,7 +52,7 @@ const Structure = () => {
                         </div>
                         <div className="p-4 text-left w-full ">
                           {/* <Image src={card_2} /> */}
-                          <h2 className=" text-justify text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] ">
+                          <h2 className=" text-center text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] ">
                             <span className="text-white">
                               People in this division are responsible for
                               information technology and risk management related
@@ -72,7 +71,7 @@ const Structure = () => {
                         </div>
                         <div className="p-5 text-left w-full ">
                           {/* <Image src={card_3} /> */}
-                          <h2 className=" text-justify text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] ">
+                          <h2 className=" text-center text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] ">
                             <span className="text-white">
                               Back office staff deals with customer services,
                               human resources, office management, staff payroll,

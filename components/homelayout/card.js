@@ -26,7 +26,7 @@ const Card = () => {
                     </div>
                     <div className="p-5 text-left w-full ">
                       {/* <Image src={card_1} /> */}
-                      <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Smaller in size, they deal with not more than a dozen customers and specializes in a single area.</span></h2>
+                      <h2 className=" text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Smaller in size, they deal with not more than a dozen customers and specializes in a single area.</span></h2>
                     </div>
                   </div>
                 </div>
@@ -34,22 +34,22 @@ const Card = () => {
                 <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-72">
                     <div className='p-4'>
-                      <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] ">Elite  <span className='text-white'> Boutique </span></h2>
+                      <h2 className=" text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] ">Elite  <span className='text-white'> Boutique </span></h2>
                     </div>
                     <div className="p-5 text-left w-full ">
                       {/* <Image src={card_2} /> */}
-                      <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>They are similar to bulge bracket banks and provide high value deals, have multiple offices in the country, but do not have a global presence like bulge bracket banks.</span></h2>
+                      <h2 className="text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Elite boutiques represent how the old school investment banks had once operated and long term wealth creation and trading.</span></h2>
                     </div>
                   </div>
                 </div>
                 <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-72">
                     <div className='p-4'>
-                      <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Middle  </span>Market </h2>
+                      <h2 className=" text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Middle  </span>Market </h2>
                     </div>
                     <div className="p-5 text-left w-full ">
                       {/* <Image src={card_3} /> */}
-                      <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>They deal between $50 m to $500m, have a larger presence than regional boutique division, and do not have a global presence.</span></h2>
+                      <h2 className=" text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>They deal between 50L to 80L, have a larger presence than regional market division, and have little presence in market.</span></h2>
                     </div>
                   </div>
                 </div>
@@ -57,11 +57,11 @@ const Card = () => {
                 <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-72">
                     <div className='p-4'>
-                      <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "> Bulge <span className='text-white'>Projects</span></h2>
+                      <h2 className=" text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "> Greater <span className='text-white'>Investment</span></h2>
                     </div>
                     <div className="p-5 text-left w-full ">
                       {/* <Image src={card_4} /> */}
-                      <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>They are multinational investment banking firms. These banks deal with large clients and deals; they have a global presence and recognizable name.</span></h2>
+                      <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Investing in multinational companies allows us to increase our investment returns.</span></h2>
                     </div>
                   </div>
                 </div>

@@ -60,11 +60,8 @@ const Footer = () => {
                     <a href="#">Devanshu Ramteker</a>
                   </h4>
                   <div className=" md:block md:w-auto" id="navbar-default">
-                    <a href="tele:+91123456789" className="text-white">
-                      +91 8275746327
-                    </a>
-                    <br />
-                    <a href="tele:+91123456789" className="text-white">
+                  
+                    <a href="tele:+918766919502" className="text-white">
                       +91 8766919502
                     </a>
                     <br />

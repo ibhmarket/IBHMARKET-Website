@@ -5,9 +5,9 @@ const Roadmap = () => {
     <div className="">
       <section className=" bg-[#121314] -mt-24 md:-mt-24 items-center justify-center md:flex">
         <div className=" py-24 px-8  text-center lg:py-16 lg:px-12">
-          <h1 className="md:mx-72 mb-12 text-2xl tracking-tight leading-none  md:text-2xl lg:text-4xl ">
+          <h1 className="md:mx-72  aspirefont mb-12 text-2xl tracking-tight leading-none  md:text-2xl lg:text-4xl text-center  interfont  text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] "> WHY INVESTING IN A MUTUAL <br />
             <span className="text-white  aspirefont tracking-wider">
-              WHY INVESTING IN A MUTUAL <br />
+             
               FUND IS A WISE CHOICE
             </span>
           </h1>
@@ -22,7 +22,7 @@ const Roadmap = () => {
                   <div className="  w-full pl-6">
                     <div className=" rounded-lg w-full bg-[#1B1C1E]">
                       <div className="md:p-7 p-5">
-                        <h2 className="text-white font-[poppins] text-left text-2xl font-bold">
+                        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]  font-[poppins] text-left text-2xl font-bold">
                           Diversification
                         </h2>
                       </div>
@@ -52,7 +52,7 @@ const Roadmap = () => {
                   <div className="  w-full pl-6">
                     <div className=" rounded-lg w-full bg-[#1B1C1E]">
                       <div className="md:p-7 p-5">
-                        <h2 className="text-white font-[poppins] text-left text-2xl font-bold">
+                      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]  font-[poppins] text-left text-2xl font-bold">
                           Professional Management
                         </h2>
                       </div>
@@ -88,8 +88,7 @@ const Roadmap = () => {
                 <div className="items-center justify-between rounded-lg sm:flex ">
                   <div className="  w-full pl-6">
                     <div className=" rounded-lg w-full bg-[#1B1C1E]">
-                      <div className="md:p-7 p-5">
-                        <h2 className="text-white font-[poppins] text-left text-2xl font-bold">
+                      <div className="md:p-7 p-5"> <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]  font-[poppins] text-left text-2xl font-bold">
                           Affordability
                         </h2>
                       </div>
@@ -115,8 +114,7 @@ const Roadmap = () => {
                 <div className="items-center justify-between rounded-lg sm:flex ">
                   <div className="  w-full pl-6">
                     <div className=" rounded-lg w-full bg-[#1B1C1E]">
-                      <div className="md:p-7 p-5">
-                        <h2 className="text-white font-[poppins] text-left text-2xl font-bold">
+                      <div className="md:p-7 p-5"> <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]  font-[poppins] text-left text-2xl font-bold">
                           Liquidity
                         </h2>
                       </div>
@@ -144,8 +142,7 @@ const Roadmap = () => {
                 <div className="items-center justify-between rounded-lg sm:flex ">
                   <div className="  w-full pl-6">
                     <div className=" rounded-lg w-full bg-[#1B1C1E]">
-                      <div className="md:p-7 p-5">
-                        <h2 className="text-white font-[poppins] text-left text-2xl font-bold">
+                      <div className="md:p-7 p-5"> <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]  font-[poppins] text-left text-2xl font-bold">
                           Tax Benefits
                         </h2>
                       </div>
@@ -171,8 +168,7 @@ const Roadmap = () => {
                 <div className="items-center justify-between rounded-lg sm:flex ">
                   <div className="  w-full pl-6">
                     <div className=" rounded-lg w-full bg-[#1B1C1E]">
-                      <div className="md:p-7 p-5">
-                        <h2 className="text-white font-[poppins] text-left text-2xl font-bold">
+                      <div className="md:p-7 p-5"> <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]  font-[poppins] text-left text-2xl font-bold">
                           Well Regulated
                         </h2>
                       </div>

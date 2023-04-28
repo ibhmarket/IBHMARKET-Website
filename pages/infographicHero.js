@@ -15,7 +15,7 @@ const InfographicHero = () => {
       type="primary"
       style={{ right: 24 }}
       icon={<WhatsAppOutlined />}
-      href="https://api.whatsapp.com/send/?phone=%2B918275746327&text&type=hey%20there"
+      href="https://api.whatsapp.com/send/?phone=%2B918766919502&text&type=hey%20there"
     />
       <section className="bg-[#121314] mt-12 md:mt-0 items-center justify-center flex">
         <div className=" px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
