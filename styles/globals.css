@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Aspire;
+  src: url(Aspire.ttf);
+}
+
+
+
+html{
+  background-color: #121314;
+ scroll-behavior: smooth;
+}
+
+
+.aspirefont{
+  font-family: Aspire;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-stretch: expanded;
+}
+
+
+.interfont{
+  font-family: 'Inter', sans-serif;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.about-bg{
+    background: rgb(191,23,194);
+background: linear-gradient(132deg, rgba(191,23,194,1) 0%, rgba(3,62,158,1) 110%);
+}
+@media (max-width: 767px) {
+    .navicon {
+      width: 1.125em;
+      height: .125em;
+    }
+  
+    .navicon::before,
+    .navicon::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all .2s ease-out;
+      content: '';
+      background: #3D4852;
+    }
+  
+    .navicon::before {
+      top: 5px;
+    }
+  
+    .navicon::after {
+      top: -5px;
+    }
+  
+    .menu-btn:not(:checked) ~ .menu {
+      display: none;
+    }
+  
+    .menu-btn:checked ~ .menu {
+      display: block;
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon {
+      background: transparent;
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::before {
+      transform: rotate(-45deg);
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::after {
+      transform: rotate(45deg);
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::before,
+    .menu-btn:checked ~ .menu-icon .navicon::after {
+      top: 0;
+    }
+  }
+  
+  
+  
+  .shadow-box {
+    text-align:center;
+    box-shadow: 10px 10px 20px #717BF9,0px 0px 70px #D9009C, -10px -10px 15px #F47C03;
+    /* box-shadow: 20px 5px 30px #717BF9, 0px 5px 30px #D9009C, -20px 5px 30px #F47C03; */
+    /* background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%); */
+   }
+   .shadow-box-sm {
+    color:#fff;
+    text-align:center;
+    box-shadow: 10px 0px 15px #717BF9, -10px 0px 15px #F47C03;
+    /* box-shadow: 20px 5px 30px #717BF9, 0px 5px 30px #D9009C, -20px 5px 30px #F47C03; */
+    /* background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%); */
+   }
+
+   
+   @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(-100% + (6*300px)));
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container .carousel-items {
+      animation: carouselAnim 60s infinite alternate linear;
+    }
+    @keyframes carouselAnim {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(calc(-100% + (5*300px)));
+      }
+    }
+  }
+  
+  .carousel-focus:hover {
+    transition: all 0.8s;
+    transform: scale(1.1);
+  }
+
+
+  #carousel {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+  }
+  .slide-indicators {
+    display: flex;
+    justify-content: center;
+  }
+  .slide-indicator {
+    height: 44px;
+    width: 50px;
+    display: flex;
+    justify-items: center;
+    cursor: pointer;
+  }
+  .slide-indicator:after {
+    content: "";
+    background-color: #878787;
+    height: 10px;
+    margin-top: 10px;
+    width: 40px;
+  }
+  .slide-indicator.active:after,
+  .slide-indicator:hover:after {
+    background-color: #000000;
+  }
+  .slide-banner {
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 15px;
+    font-size: 2.5vw;
+  }
+  .slide-banner a {
+    color: #ffffff;
+  }
+  #slide-container {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  .slide {
+    scroll-snap-align: center;
+    position: relative;
+    min-width: 100%;
+    padding-top: 50%;
+  }
+  .slide img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .arrow {
+    color: #ffffff;
+    height: 20px;
+    width: 20px;
+    background-color: #000000;
+    position: absolute;
+    padding: 10px;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  .arrow.back {
+    left: 10px;
+    top: 10px;
+  }
+  .arrow.forward {
+    right: 10px;
+    top: 10px;
+  }
+  .arrow:hover {
+    opacity: 1;
+  }
+  
