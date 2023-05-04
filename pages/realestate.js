@@ -15,7 +15,7 @@ const Realstate = () => {
   return (
     <div>
     <Head>
- <title>IBH | Realstate</title>
+ <title>IBH | Real Estate</title>
 </Head>
       <FloatButton
      className="w-16 h-16"

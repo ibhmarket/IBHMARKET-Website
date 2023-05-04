@@ -5,7 +5,7 @@ const Roadmap = () => {
     <div className="">
       <section className=" bg-[#121314] -mt-24 md:-mt-24 items-center justify-center md:flex">
         <div className=" py-24 px-8  text-center lg:py-16 lg:px-12">
-          <h1 className="md:mx-72  aspirefont mb-12 text-2xl tracking-tight leading-none  md:text-2xl lg:text-4xl text-center  interfont  text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#717BF9] "> WHY INVESTING IN A MUTUAL <br />
+          <h1 className="md:mx-72  aspirefont mb-12 text-2xl tracking-tight leading-none  md:text-2xl lg:text-4xl text-center  aspirefont  text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]"> WHY INVESTING IN A MUTUAL <br />
             <span className="text-white  aspirefont tracking-wider">
              
               FUND IS A WISE CHOICE

@@ -29,7 +29,7 @@ const Navbar = () => {
           <a href="/" scrollsmooth className="scrollsmooth block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent" >Intro</a>
         </li>
         <li  className='m-auto'>
-        <a href="/realstate" className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent" >RealState</a>
+        <a href="/realestate" className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent" >Real Estate</a>
         </li>
         <li className='m-auto'>
         <a href="/crypto" className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent" >Crypto</a>
@@ -40,7 +40,7 @@ const Navbar = () => {
         <li className='m-auto'>
         <a href="/books" className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent" >Books</a>
         </li>
-        <ul className="flex flex-row p-2 mt-4   md:flex-row md:space-x-4 md:mt-0 md:text-lg md:font-medium   ">
+        <ul className="flex flex-row p-2 md:mt-4   md:flex-row md:space-x-4  md:text-lg md:font-medium   ">
 
         <li className='md:mr-0 mr-4 hover:scale-110 transition duration-300 ease-in-out'>
        <a href="mailto:investmenthouse@gmail.com">

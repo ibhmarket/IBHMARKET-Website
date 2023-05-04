@@ -17,8 +17,7 @@ const Graph = styled.div`
   }
 `;
 
-export default function TradingChart(props) {
-  const { symbol } = props;
+export default function TradingChartLTC() {
   const onLoadScriptRef = useRef();
 
   useEffect(() => {
@@ -44,12 +43,12 @@ export default function TradingChart(props) {
 
     function createWidget() {
       if (
-        document.getElementById("tradingview_b9c80") &&
+        document.getElementById("tradingview_LTC") &&
         "TradingView" in window
       ) {
         new window.TradingView.widget({
           autosize: true,
-          symbol: symbol,
+          symbol: "LTC",
           interval: "W",
           timezone: "Asia/Kolkata",
           theme: "dark",
@@ -59,16 +58,16 @@ export default function TradingChart(props) {
           enable_publishing: false,
           allow_symbol_change: true,
           hide_side_toolbar: true,
-          container_id: "tradingview_b9c80",
+          container_id: "tradingview_LTC",
           autosize: true,
         });
       }
     }
-  }, [symbol]);
+  }, []);
 
   return (
     <Wraper className="tradingview-widget-container">
-      <Graph id="tradingview_b9c80" />
+      <Graph id="tradingview_LTC" />
     </Wraper>
   );
 }

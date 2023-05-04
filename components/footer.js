@@ -92,10 +92,10 @@ const Footer = () => {
                       Crypto
                     </a>
                     <a
-                      href="/realstate"
+                      href="/realestate"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
-                      Realstate
+                      Real Estate
                     </a>
                     <a
                       href="/books"

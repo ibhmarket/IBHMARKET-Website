@@ -16,8 +16,8 @@ const RealStateCard = () => {
 
             <div className="container  py-8 mx-auto">
               <div className="flex flex-wrap -m-2 md:-m-4 text-center">
-                <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
-                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md h-[400px]">
+                <div className="p-3 sm:w-1/2 lg:w-1/2 w-1/2 md:hover:scale-100 transition duration-300 ease-in-out">
+                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md  h-full lg:h-[250px]">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Equity REITs </span>Boutique  <br/> <span className='text-white'> </span></h2>
                     </div>
@@ -28,8 +28,8 @@ const RealStateCard = () => {
                   </div>
                 </div>
 
-                <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
-                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md h-[400px]">
+                <div className="p-3 sm:w-1/2 lg:w-1/2 w-1/2 md:hover:scale-100 transition duration-300 ease-in-out">
+                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md  h-full lg:h-[250px]">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] ">Mortgage REITs  <span className='text-white'> Boutique </span></h2>
                     </div>
@@ -39,8 +39,8 @@ const RealStateCard = () => {
                     </div>
                   </div>
                 </div>
-                <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
-                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md h-[400px]">
+                <div className="p-3 sm:w-1/2 lg:w-1/2 w-1/2 md:hover:scale-100 transition duration-300 ease-in-out">
+                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md  h-full lg:h-[250px]">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Retail REITs  </span>Market </h2>
                     </div>
@@ -51,8 +51,8 @@ const RealStateCard = () => {
                   </div>
                 </div>
 
-                <div className="p-3 sm:w-1/2 lg:w-1/4 w-1/2 md:hover:scale-110 transition duration-300 ease-in-out">
-                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md h-[400px]">
+                <div className="p-3 sm:w-1/2 lg:w-1/2 w-1/2 md:hover:scale-100 transition duration-300 ease-in-out">
+                  <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-md h-full lg:h-[250px]">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "> Residential REITs <span className='text-white'>Projects</span></h2>
                     </div>

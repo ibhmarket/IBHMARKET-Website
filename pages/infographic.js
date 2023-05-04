@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
-import TradingChart from "../components/TradingChart";
+import TradingChart from "../components/TradingChartETH";
 import Navbar from "../components/navbar";
 import InfographicHero from "./infographicHero";
 import Footer from "../components/footer";
 import Head from 'next/head'
 import { Select, Space , FloatButton } from 'antd';
 import { WhatsAppOutlined } from '@ant-design/icons';
+import TradingChartETH from "../components/TradingChartETH";
+import TradingChartBTC from "../components/TradingChartBTC";
+import TradingChartLTC from "../components/TradingChartLTC";
+import TradingChartBankNifty from "../components/TradingChartBANKNIFTY";
+import TradingChartNIFTY from "../components/TradingChartNIFTY";
 
 
 const Wrapper = styled.div`
@@ -44,13 +49,6 @@ const Circle = styled.div`
 
 
 const Infographic = () => {
-  const [symbol, setsymbol] = useState('ETH');
-
-const handleChange = (value) => {
-  console.log(`selected ${value}`);
-  setsymbol(value);
-  console.log(`selected ${symbol}`);
-};
       
   return (
     <div className="" style={{ background: "rgb(18 19 20 / 1)" }}>
@@ -70,46 +68,64 @@ const handleChange = (value) => {
       <Navbar/>
       <Wrapper>
       <InfographicHero/>
-      <Select
-      className="mb-4 "
-      defaultValue="ETH"
-      style={{
-        width: 120,
-      }}
-      onChange={handleChange}
-      options={[
-        {
-          value: 'ETH',
-          label: 'ETHEREUM',
-        },
-        {
-          value: 'BTC',
-          label: 'BITCOIN',
-        },
-        {
-          value: 'LTCUSD',
-          label: 'LITCOIN',
-        },
-        {
-          value: 'NIFTY',
-          label: 'NIFTY',
-        },
-        {
-          value: 'BANKNIFTY',
-          label: 'BANKNIFTY',
-        },
-        {
-          value: 'FINNIFTY1!',
-          label: 'FINNIFTY1',
-        },
-      ]}
-    />
+      <h1 className=" md:mb-6 mb-2 text-lg aspirefont tracking-[0.1em] leading-none   md:text-5xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] ">
+             <span className="text-white"></span>{" "}
+            Ethereum
+          </h1>
               <TradingSection>
           <TradingHeader>
           <Circle/><Circle/>
             {/* {symbol} */}
             </TradingHeader>
-          <TradingChart symbol={symbol} />
+          <TradingChartETH  />
+        </TradingSection>
+        <InfographicHero/>
+      <h1 className=" md:mb-6 mb-2 text-lg aspirefont tracking-[0.1em] leading-none   md:text-5xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] ">
+             <span className="text-white"></span>{" "}
+            Bitcoin
+          </h1>
+              <TradingSection>
+          <TradingHeader>
+          <Circle/><Circle/>
+            {/* {symbol} */}
+            </TradingHeader>
+          <TradingChartBTC />
+        </TradingSection>
+        <InfographicHero/>
+      <h1 className=" md:mb-6 mb-2 text-lg aspirefont tracking-[0.1em] leading-none   md:text-5xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] ">
+             <span className="text-white"></span>{" "}
+            Litcoin
+          </h1>
+              <TradingSection>
+          <TradingHeader>
+          <Circle/><Circle/>
+            {/* {symbol} */}
+            </TradingHeader>
+          <TradingChartLTC  />
+        </TradingSection>
+        <InfographicHero/>
+      <h1 className=" md:mb-6 mb-2 text-lg aspirefont tracking-[0.1em] leading-none   md:text-5xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] ">
+             <span className="text-white"></span>{" "}
+            BankNifty
+          </h1>
+              <TradingSection>
+          <TradingHeader>
+          <Circle/><Circle/>
+            {/* {symbol} */}
+            </TradingHeader>
+          <TradingChartBankNifty/>
+        </TradingSection>
+        <InfographicHero/>
+      <h1 className=" md:mb-6 mb-2 text-lg aspirefont tracking-[0.1em] leading-none   md:text-5xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] ">
+             <span className="text-white"></span>{" "}
+            Nifty
+          </h1>
+              <TradingSection>
+          <TradingHeader>
+          <Circle/><Circle/>
+            {/* {symbol} */}
+            </TradingHeader>
+          <TradingChartNIFTY />
         </TradingSection>
       </Wrapper>
         <Footer/>
