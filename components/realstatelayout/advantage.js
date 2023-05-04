@@ -14,7 +14,7 @@ const Advantage = () => {
     return (
       <div className="-mb-36 mt-24">
         <h2 className="aspirefont text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] font-base tracking-wide md:mx-96 md:px-36 py-16  text-2xl md:text-3xl lg:text-4xl mb-2  text-center">
-         REITs ADVANTAGES & DISADVANTAGES OF INVESTING IN REITs
+        <span className="text-white">    REITs </span> ADVANTAGES <span className="text-white"> &</span> DISADVANTAGES <span className="text-white"> OF INVESTING IN REITs</span>
         </h2>
         <Collapse 
           className="bg-[#e7e7e7] md:w-[50%] w-[80%] mx-auto text-lg text-white  font-bold font-[Poppins] mb-10"

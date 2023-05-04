@@ -9,8 +9,7 @@ const RealStateCard = () => {
 
       <section className="bg-[#121314] box-content mt-24 md:mt-48 items-center justify-center flex">
         <div className="py-8 px-4 mx-auto max-w-screen-2xl  text-center lg:py-16 lg:px-12">
-
-          <h1 className="mb-4 text-2xl lg:mx-64 aspirefont leading-none md:text-3xl lg:text-4xl tracking-wide  text-white">TYPES OF REITs</h1>
+        <h1 className=" md:mb-6 mb-2 text-2xl aspirefont leading-none md:text-3xl lg:text-4xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] "> <span className='text-white'>TYPES OF</span> REITs</h1>
           <p className="mb-8 text-lg  font-normal interfont  lg:text-xl sm:px-16 xl:px-48 text-gray-400"></p>
           <div className="flex flex-col  mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
 

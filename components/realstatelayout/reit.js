@@ -15,7 +15,7 @@ const REIT = () => {
           <div className="md:p-24 p-8 pt-12  md:pt-12">
             <div className="font-base tracking-wider text-[22px] md:text-[35px] mb-6 md:p-8 ">
               <span className="aspirefont text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9]">
-              REIT in INDIA
+             <span className="text-white"> REIT in</span> INDIA
               </span>
             </div>
             <p className=" md:text-[27px] text-[14px] font-[Poppins] text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] "><b className="font-bold">

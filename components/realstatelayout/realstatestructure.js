@@ -7,9 +7,9 @@ const RealStateStructure = () => {
     <div className="h-screen">
       <section className="bg-[#121314] -mt-0  items-center justify-center flex">
         <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
-          <p className=" mb-4 font-normal text-white aspirefont  text-2xl md:text-3xl lg:text-4xl tracking-wider sm:px-16 xl:px-48">
+          <p className=" mb-4 font-normal aspirefont text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] via-[#D9009C] to-[#717BF9] font-base  text-2xl md:text-3xl lg:text-4xl tracking-wider sm:px-16 xl:px-48">
             {" "}
-            How DO REITs WORK
+            <span className="text-white">   How DO </span> REITs WORK
           </p>
           <p className="mb-8 text-lg font-normal interfont lg:text-xl sm:px-16 xl:px-48 text-gray-400">
             The flowchart below shows the basic process of a REIT transaction:
