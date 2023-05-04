@@ -34,47 +34,47 @@ const Navbar = () => {
         </label>
 
         <ul className="menu  md:border-none flex justify-end list-reset m-0 w-full md:w-auto mt-4 bg-[#121314]  md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 ">
-        <li className="m-auto text-gray-400 hover:text-white ">
+        <li className="m-auto scrollsmooth block  py-2 pl-3   text-gray-400 hover:text-white ">
 
             <Link
               href="/"
               scrollsmooth
-              className="scrollsmooth block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+              className="scrollsmooth block  py-2 pl-3   rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               Intro
             </Link>
           </li>
-          <li className="m-auto text-gray-400 hover:text-white ">
+          <li className="m-auto scrollsmooth block  py-2 pl-3   text-gray-400 hover:text-white ">
 
             <Link
               href="/realestate"
-              className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+              className="block  py-2 pl-3   rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               Real Estate
             </Link>
           </li>
-          <li className="m-auto text-gray-400 hover:text-white ">
+          <li className="m-auto scrollsmooth block  py-2 pl-3   text-gray-400 hover:text-white ">
 
             <Link
               href="/crypto"
-              className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+              className="block  py-2 pl-3   rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               Crypto
             </Link>
           </li>
-          <li className="m-auto text-gray-400 hover:text-white ">
+          <li className="m-auto scrollsmooth block  py-2 pl-3   text-gray-400 hover:text-white ">
 
             <Link
               href="/infographic"
-              className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+              className="block  py-2 pl-3   rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               Graphs
             </Link>
           </li>
-          <li className="m-auto text-gray-400 hover:text-white ">
+          <li className="m-auto scrollsmooth block  py-2 pl-3   text-gray-400 hover:text-white ">
             <Link
               href="/books"
-              className="block  py-2 pl-3 pr-4  rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent " 
+              className="block  py-2 pl-3   rounded  md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent " 
             >
               Books
             </Link>
