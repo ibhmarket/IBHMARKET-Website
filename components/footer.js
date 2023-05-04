@@ -1,17 +1,18 @@
 import React from "react";
 import { Modal } from "antd";
 import { useState } from "react";
+import Link from "next/link";
 
 var Title;
 var Description;
-var Link;
+var Link_;
 
 const Footer = () => {
   const [open, setOpen] = useState(false);
   const showModal = (title, description, link) => {
     Title = title;
     Description = description;
-    Link = link;
+    Link_ = link;
     setOpen(true);
   };
   const handleOk = () => {
@@ -36,8 +37,8 @@ const Footer = () => {
       >
         <p>
           {Description}{" "}
-         {Link!=="None" ?
-          <a href={Link} className="text-blue-800">
+         {Link_!=="None" ?
+          <a href={Link_} className="text-blue-800">
             Learn More
           </a>:<div></div>
           }
@@ -66,10 +67,10 @@ const Footer = () => {
                     </a>
                     <br />
                     <a
-                      href="mailto:investmenthouse@gmail.com"
+                      href="mailto:ibhmarket.com@gmail.com"
                       className="text-white"
                     >
-                      investmenthouse@gmail.com
+                      ibhmarket.com@gmail.com
                     </a>
                   </div>
                 </div>
@@ -78,37 +79,37 @@ const Footer = () => {
                   <h6 className="font-bold tracking-wide text-xl text-white interfont mb-2">
                     COMPANY
                   </h6>
-                  <div>
-                    <a
+                  <div className="text-gray-400 py-1 block interfont  cursor-pointer">
+                    <Link
                       href="/#introduction"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       About
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/crypto"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Crypto
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/realestate"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Real Estate
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/books"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Books
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/infographic"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Graphs
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="sm:flex-1 mt-4 sm:mt-0 lg:px-5">
@@ -142,43 +143,43 @@ const Footer = () => {
                   <h6 className="font-bold tracking-wide text-xl text-white interfont mb-2">
                     BUSINESSES
                   </h6>
-                  <div>
-                    <a
+                  <div className="text-gray-400 py-1 block interfont  cursor-pointer">
+                    <Link
                       href="/crypto#instutional"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Institutional
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/crypto#prime"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Prime
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/crypto#assethub"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Asset Hub
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/crypto#commerce"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Commerce
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/crypto#exchange"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Exchange
-                    </a>
-                    <a
+                    </Link><br />
+                    <Link
                       href="/crypto#compliance"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Compilance
-                    </a>
+                    </Link>
                   </div>
                 </div>
           
@@ -228,13 +229,13 @@ const Footer = () => {
         <div className="border-t border-solid border-gray-900 mt-4 py-4">
           <div className="container px-4 mx-auto">
             <div className="md:flex md:-mx-4 md:items-center">
-              <div className="md:flex-1 text-center">
-                <a
+              <div className="md:flex-1 text-center text-white">
+                <Link
                   href="/"
                   className="py-2 px-4 interfont text-white inline-block hover:underline"
                 >
                   Copyright IBH 2023, All right reserved
-                </a>
+                </Link>
               </div>
             </div>
           </div>
