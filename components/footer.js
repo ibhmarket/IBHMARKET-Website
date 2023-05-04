@@ -38,9 +38,9 @@ const Footer = () => {
         <p>
           {Description}{" "}
          {Link_!=="None" ?
-          <Link href={Link_} className="text-blue-800">
+          <a href={Link_} className="text-blue-800">
             Learn More
-          </Link>:<div></div>
+          </a>:<div></div>
           }
         </p>
       </Modal>
@@ -54,11 +54,11 @@ const Footer = () => {
               <div className="sm:flex">
                 <div className="sm:flex-1 mt-4 sm:mt-0 min-w-fit lg:px-5">
                   <h4 className="text-white font-[poppins] text-2xl mb-4">
-                    <Link href="#">Contact:</Link>
+                    <a href="#">Contact:</a>
                   </h4>
 
                   <h4 className="text-white font-[poppins] text-2xl mb-4">
-                    <Link href="#">Devanshu Ramteker</Link>
+                    <a href="#">Devanshu Ramteker</a>
                   </h4>
                   <div className=" md:block md:w-auto" id="navbar-default">
                   
@@ -80,36 +80,36 @@ const Footer = () => {
                     COMPANY
                   </h6>
                   <div className="text-gray-400 py-1 block interfont  cursor-pointer">
-                    <Link
+                    <a
                       href="/#introduction"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       About
-                    </Link><br />
-                    <Link
+                    </a><br />
+                    <a
                       href="/crypto"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Crypto
-                    </Link><br />
-                    <Link
+                    </a><br />
+                    <a
                       href="/realestate"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Real Estate
-                    </Link><br />
-                    <Link
+                    </a><br />
+                    <a
                       href="/books"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Books
-                    </Link><br />
-                    <Link
+                    </a><br />
+                    <a
                       href="/infographic"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Graphs
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div className="sm:flex-1 mt-4 sm:mt-0 lg:px-5">
@@ -117,12 +117,12 @@ const Footer = () => {
                     INDIVIDUALS
                   </h6>
                   <div className="text-base">
-                    <Link                     
+                    <a                     
                       onClick={() => showModal('Buy & Sell',"a “buy wall” is a massive buy order, or multiple buy orders, around a particular price level. Conversely, a “sell wall” is a significant accumulation of sell orders at a given price level.",'https://crypto.com/app')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Buy & Sell
-                    </Link>
+                    </a>
                     <a
                       
                       onClick={() => showModal('Wallet',"A blockchain wallet is a cryptocurrency wallet that allows users to manage different kinds of cryptocurrencies—for example, Bitcoin or Ethereum. A blockchain wallet helps someone exchange funds easily. Transactions are secure, as they are cryptographically signed.",'https://crypto.com/defi-wallet')}
@@ -188,31 +188,31 @@ const Footer = () => {
                     LEARN
                   </h6>
                   <div>
-                    <Link                     
+                    <a                     
                       onClick={() => showModal('Ethereum Merge',"Ethereum Mainnet uses proof-of-stake, but this wasn't always the case. The upgrade from the original proof-of-work mechanism to proof-of-stake was called The Merge.",'https://ethereum.org/en/upgrades/merge/')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Ethereum Merge
-                    </Link>
-                    <Link                      
+                    </a>
+                    <a                      
                       onClick={() => showModal('What is Bitcoin?',"Bitcoin is a protocol which implements a highly available, public, permanent, and decentralized ledger. In order to add to the ledger, a user must prove they control an entry in the ledger.",'https://en.wikipedia.org/wiki/Bitcoin')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       What is Bitcoin?
-                    </Link>
-                    <Link                      
+                    </a>
+                    <a                      
                       onClick={() => showModal('What is Crypto?',"A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.",'https://crypto.com/')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       What is Crypto?
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                       onClick={() => showModal('What is Blockchain?'," Blockchain.com is a cryptocurrency financial services company. The company began as the first Bitcoin blockchain explorer in 2011 and later created a cryptocurrency wallet that accounted for 28% of bitcoin transactions between 2012 and 2020.",'https://www.blockchain.com/')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                      
                     >
                       What is Blockchain?
-                    </Link>
+                    </a>
                     <a
                     onClick={() => showModal('How to send crypto',"You'll select the cryptocurrency first and then select Send.) You need the public key or public address of your recipient.",'https://www.coinbase.com/learn/tips-and-tutorials/how-to-send-crypto')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
