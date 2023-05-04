@@ -1,5 +1,6 @@
 import React from 'react';
 import { BlockData } from './constants';
+import Link from 'next/link';
 
 const index = () => {
   return (
@@ -13,15 +14,15 @@ const index = () => {
             
             <article class="overflow-hidden rounded-lg shadow-lg  bg-white">
 
-                <a href={data.Link}>
+                <Link href={data.Link}>
                     <img alt={data.name}  class="block h-[200px] w-full" src={data.picture}/>
-                </a>
+                </Link>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href={data.Link}>
+                        <Link class="no-underline hover:underline text-black" href={data.Link}>
                             {data.name}
-                        </a>
+                        </Link>
                     </h1>
                     <p class="text-grey-darker text-sm">
                         {data.type}

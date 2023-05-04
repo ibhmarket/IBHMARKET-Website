@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 
 
 
@@ -17,7 +18,7 @@ const CryptoCard = () => {
             <div className="container  py-8 mx-auto">
               <div className="flex flex-wrap -m-2 md:-m-4 text-center">
 
-                <a href='https://www.coinbase.com/institutional' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 " id="instutional">
+                <Link href='https://www.coinbase.com/institutional' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 " id="instutional">
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-48">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'></span>Instutional  <br/> <span className='text-white'> </span></h2>
@@ -27,9 +28,9 @@ const CryptoCard = () => {
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Smaller in size, they deal with not more than a dozen customers and specializes in a single area.</span></h2>
                     </div>
                   </div>
-                </a>
+                </Link>
 
-                <a href="https://www.coinbase.com/prime" className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 " id='prime'>
+                <Link href="https://www.coinbase.com/prime" className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 " id='prime'>
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-48">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] ">  Prime</h2>
@@ -39,8 +40,8 @@ const CryptoCard = () => {
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>The prime brokerage platform</span></h2>
                     </div>
                   </div>
-                </a>
-                <a href='https://www.coinbase.com/commerce' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='commerce'>
+                </Link>
+                <Link href='https://www.coinbase.com/commerce' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='commerce'>
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-48">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'></span>Commerce </h2>
@@ -50,8 +51,8 @@ const CryptoCard = () => {
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Accept crypto from anyone</span></h2>
                     </div>
                   </div>
-                </a>
-                <a href='https://www.coinbase.com/assethub' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='assethub'>
+                </Link>
+                <Link href='https://www.coinbase.com/assethub' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='assethub'>
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-48">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'></span>Asset Hub </h2>
@@ -61,8 +62,8 @@ const CryptoCard = () => {
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>list your asset on Coinbase</span></h2>
                     </div>
                   </div>
-                </a>
-                <a href='https://www.coinbase.com/commerce' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='exchange'>
+                </Link>
+                <Link href='https://www.coinbase.com/commerce' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='exchange'>
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-48">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'></span>Exchange </h2>
@@ -72,9 +73,9 @@ const CryptoCard = () => {
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Direct access to our exchange</span></h2>
                     </div>
                   </div>
-                </a>
+                </Link>
 
-                <a href='https://www.coinbase.com/compliance' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='compliance'>
+                <Link href='https://www.coinbase.com/compliance' className="p-3 sm:w-1/2 lg:w-1/3 w-1/2 "id='compliance'>
                   <div className=" rounded-lg w-full bg-[#2a2b2b] shadow-[#2a2b2b] shadow-md h-48">
                     <div className='p-4'>
                       <h2 className="text-white text-left text-sm md:text-xl interfont font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] ">Compilance</h2>
@@ -84,7 +85,7 @@ const CryptoCard = () => {
                       <h2 className="text-white text-left text-sm md:text-xl  interfont font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#F47C03] to-[#D9009C] "><span className='text-white'>Power your crypto compliance</span></h2>
                     </div>
                   </div>
-                </a>
+                </Link>
 
               </div>
             </div>
