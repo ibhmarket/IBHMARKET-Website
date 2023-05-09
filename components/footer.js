@@ -58,9 +58,9 @@ const Footer = () => {
                   </h4>
 
                   <h4 className="text-white font-[poppins] text-2xl mb-4">
-                    <a href="#">Devanshu Ramteker</a>
+                  Devanshu Ramteker
                   </h4>
-                  <div className=" md:block md:w-auto" id="navbar-default">
+                  <div className=" md:block md:w-auto text-white" id="navbar-default">
                   
                     <Link href="tele:+918766919502" className="text-white">
                       +91 8766919502
@@ -85,25 +85,25 @@ const Footer = () => {
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       About
-                    </a><br />
+                    </a>
                     <a
                       href="/crypto"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Crypto
-                    </a><br />
+                    </a>
                     <a
                       href="/realestate"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Real Estate
-                    </a><br />
+                    </a>
                     <a
                       href="/books"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Books
-                    </a><br />
+                    </a>
                     <a
                       href="/infographic"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
@@ -116,8 +116,8 @@ const Footer = () => {
                   <h6 className="font-bold tracking-wide text-xl text-white interfont mb-2">
                     INDIVIDUALS
                   </h6>
-                  <div className="text-base">
-                    <a                     
+                                   <div className="text-gray-400 py-1 block interfont  cursor-pointer">
+   <a                     
                       onClick={() => showModal('Buy & Sell',"a “buy wall” is a massive buy order, or multiple buy orders, around a particular price level. Conversely, a “sell wall” is a significant accumulation of sell orders at a given price level.",'https://crypto.com/app')}
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
@@ -144,42 +144,42 @@ const Footer = () => {
                     BUSINESSES
                   </h6>
                   <div className="text-gray-400 py-1 block interfont  cursor-pointer">
-                    <Link
+                    <a
                       href="/crypto#instutional"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Institutional
-                    </Link><br />
-                    <Link
+                    </a>
+                    <a
                       href="/crypto#prime"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Prime
-                    </Link><br />
-                    <Link
+                    </a>
+                    <a
                       href="/crypto#assethub"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Asset Hub
-                    </Link><br />
-                    <Link
+                    </a>
+                    <a
                       href="/crypto#commerce"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Commerce
-                    </Link><br />
-                    <Link
+                    </a>
+                    <a
                       href="/crypto#exchange"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Exchange
-                    </Link><br />
-                    <Link
+                    </a>
+                    <a
                       href="/crypto#compliance"
                       className="text-gray-400 py-1 block interfont hover:underline cursor-pointer"
                     >
                       Compilance
-                    </Link>
+                    </a>
                   </div>
                 </div>
           
